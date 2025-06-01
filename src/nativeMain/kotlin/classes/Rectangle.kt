@@ -18,3 +18,16 @@ fun main() {
     rectangle.draw()
     println(rectangle.fillColor)
 }
+fun double(x: Int): Int {
+    return 2 * x
+}
+fun printHello(name: String?) {
+    if (name != null)
+        println("Hello $name")
+    else
+        println("Hi there!")
+    // `return Unit` 或者 `return` 是可选的
+}
+fun double1(x: Int): Int = x * 2 //当函数体由单个表达式构成时，可以省略花括号并且在 = 符号之后指定代码体即可：
+
+

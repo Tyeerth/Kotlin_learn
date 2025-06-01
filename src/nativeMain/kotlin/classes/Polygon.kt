@@ -5,7 +5,7 @@ abstract class Polygon {
 }
 
 class Rectangle : Polygon() {
-    override fun draw() {
+    override fun draw()  {
         // draw the rectangle
     }
 }
