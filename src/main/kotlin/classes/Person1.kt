@@ -16,6 +16,7 @@ class Person(
 fun main() {
     val person = Person("Alice", "Smith", 30)
     println(person.firstName)
+    person.name
     val person1 = Person()
     println(person1.age)
     println(person.lastName)
